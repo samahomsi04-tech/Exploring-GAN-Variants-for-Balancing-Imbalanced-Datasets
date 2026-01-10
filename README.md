@@ -43,7 +43,7 @@ Notebooks:
 - Image normalization
 
 - Augmanting traning set
-   - All augmantation approaches were applyed only on training set. Vallidation and testing kept imbalance to to mimic real-life scenario 
+   - All augmantation approaches were applyed only on training set. Vallidation and testing kept imbalance to mimic real-life scenario 
 
 
 
