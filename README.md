@@ -18,7 +18,16 @@ Datasets/models are not included (ignored) due to size.
 Put your dataset inside `data/`.
 
 
-## Dependencies
+## Dependencies 
+- os
+- cv2
+- numpy 
+- pandas
+- matplotlib
+- seaborn
+- sklearn
+- tensorflow 
+
 
 
 ## Dataset 
