@@ -13,9 +13,6 @@ Notebooks:
 - Conditional GAN (CGANs)
 - Wasserstein GAN (WGANs)
 
-## Notes
-Datasets/models are not included (ignored) due to size.
-Put your dataset inside `data/`.
 
 
 ## Dependencies 
