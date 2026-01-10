@@ -1,15 +1,61 @@
 # Exploring GAN Variants for Balancing Imbalanced Datasets
 
-a comparative analysis of evaluating the impact of imbalance data on model perfor-
-mance. Additional, different Generative Adversarial Networks architecture were investigated for
+A Comparative Study of GANs for Medical Data Augmentation.
+
+# Overview
+
+Different Generative Adversarial Networks architecture were investigated for
 augmentation, including Deep Convolutional GAN (DCGAN), Conditional GAN (CGAN), and
 Wasserstein GAN (WGAN)
 
 Notebooks:
-- Vanilla GAN
-- CGAN
-- WGAN
+- Deep Convolutional GANs (DCGANs)
+- Conditional GAN (CGANs)
+- Wasserstein GAN (WGANs)
 
 ## Notes
 Datasets/models are not included (ignored) due to size.
 Put your dataset inside `data/`.
+
+
+## Dependencies
+
+
+## Dataset 
+1. The dataset was slightly balance across both labels Bengin and Malignant
+   - A 2,000 sample was taken from Malignant to address imbalancd scenario
+
+
+2. The dataset is splitted into
+  - **Training set** : 80%
+  - **Validation set** : 10%
+  - **Test set** : 10%
+
+
+## Data Preprocessing
+- Image resize to 64X64X3,  only for WGAN-base approach 128X128X3
+- Image normalization
+
+- Augmanting traning set
+   - All augmantation approaches were applyed only on training set. Vallidation and testing kept imbalance to to mimic real-life scenario 
+
+
+
+## CCN-based classifier Architecture
+  - **Architecture :** Multiple convolutional layers, pooling layers, and a fullyconnected layer. 
+  - **Optimizer :** Adam (learning rate 0.0001)
+  - **Loss Function :** Binary Cross-Entropy
+
+
+## Evaluation and Results
+- Best test accuracy
+- Evaluation Metrics
+  - **F1-Score**
+  - **Recall**
+  - **Precision**
+  - **Confusion Matrix**
+
+
+## Purpose
+This project aims for university educational purpose 
+
