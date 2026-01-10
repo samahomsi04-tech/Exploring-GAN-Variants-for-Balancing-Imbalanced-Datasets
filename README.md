@@ -28,8 +28,8 @@ Notebooks:
 
 
 ## Dataset 
-1. The dataset was slightly balance across both labels Bengin and Malignant
-   - A 2,000 sample was taken from Malignant to address imbalancd scenario
+1. The dataset was slightly balance across both classes Bengin and Malignant
+   - A 2,000 sample was taken from Malignant calss to address imbalancd scenario
 
 
 2. The dataset is splitted into
